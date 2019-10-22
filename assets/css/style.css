@@ -1,0 +1,94 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://www.bing.com/th?id=OIP.kOdfUHUU587Y2kKNNs1Y_AHaFj&w=228&h=171&c=7&o=5&pid=1.7 fill='none' fill-rule='evenodd'%3E%3Cg fill='%234a8c9a' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 500px;
+  margin: 60px auto;
+  background-color: palegoldenrod;
+  padding: 10px 50px 50px 50px;
+  border-radius: 30px;
+  border: 2px solid gray;
+  box-shadow: 0 0 10px 2px lightyellow;
+}
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  font-family: cursive;
+  font-size: 80px;
+  text-align: center;
+  padding: 2px 0px;
+}
+
+#countdown,
+.question {
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+#start-btn {
+  background-color: firebrick;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#questionGrid,
+#resultPage,
+#scoreboard {
+  text-align: center;
+  font-size: 30px;
+}
+
+.thisChoice {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+.thisChoice:hover {
+  background-color: lightsalmon;
+  color: white;
+  padding: 10px;
+  border-style: double;
+  border-color: firebrick;
+}
+
+#startOver {
+  background-color: firebrick;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#startOver:hover {
+  background-color: lightsalmon;
+  color: white;
+  padding: 10px;
+  border-style: outset;
+  border-color: darkslategrey;
+}
